@@ -18,13 +18,13 @@ export function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat()
 
   return (
-    <Card className="w-[440px] shadow-lg shadow-slate-950">
+    <Card className="w-[900px] shadow-lg shadow-slate-950">
       <CardHeader>
         <CardTitle>Chat AI</CardTitle>
         <CardDescription>Chat bot to answer your questions</CardDescription>
       </CardHeader>
       <CardContent className="space-y-5 pt-5 mb-6 border-t border-b border-slate-50 bg-slate-200 ">
-        <ScrollArea className="h-[600px] w-full">
+        <ScrollArea className="h-[500px] w-full">
           {messages.map((messages) => {
             return (
               <div
