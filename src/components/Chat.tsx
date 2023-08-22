@@ -23,7 +23,7 @@ export function Chat() {
         <CardTitle>Chat AI</CardTitle>
         <CardDescription>Chat bot to answer your questions</CardDescription>
       </CardHeader>
-      <CardContent className="space-y-5 pt-5 mb-6 border-t border-b border-slate-50 bg-slate-200 ">
+      <CardContent className="space-y-5 pt-5 mb-6 border-t border-b border-slate-50 bg-slate-300 ">
         <ScrollArea className="h-[500px] w-full">
           {messages.map((messages) => {
             return (
